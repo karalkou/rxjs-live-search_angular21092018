@@ -1,0 +1,29 @@
+.card-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.card {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+.card__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.card__text,
+.cart__stars {
+    margin-bottom: 10px;
+}
+
+.card__link,
+.card__link:hover,
+.card__link:active,
+.card__link:visited {
+    color: lightblue;
+    text-decoration: none;
+}

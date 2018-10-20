@@ -125,6 +125,7 @@ class Search {
             );
     }
 
+    // is it good to return type any ?
     public static getSearchObservable(source$: Observable<Event>): Observable<any> {
         return source$.pipe(
             debounceTime(300),

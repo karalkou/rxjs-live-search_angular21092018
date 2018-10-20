@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "ts-node": "ts-node",
+    "ts-node": "ts-node ./rxjs-2-homework/index.ts",
     "build": "webpack --colors --progress",
     "start": "webpack-dev-server --colors --progress",
     "lint": "tslint 'src/**/*.ts'",
